@@ -27,7 +27,6 @@ public class RegisterPage extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTextField1 = new javax.swing.JTextField();
         lblFirstname = new javax.swing.JLabel();
         lblLastname = new javax.swing.JLabel();
         lblemail = new javax.swing.JLabel();
@@ -41,15 +40,9 @@ public class RegisterPage extends javax.swing.JFrame {
         txtPassword = new javax.swing.JPasswordField();
         txtConfirmpassword = new javax.swing.JPasswordField();
         btnRegister = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jTextField1.setText("   Register Page");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
 
         lblFirstname.setText("First Name");
 
@@ -64,6 +57,8 @@ public class RegisterPage extends javax.swing.JFrame {
         lblConfirmPasword.setText("Confirm Password");
 
         btnRegister.setText("Register");
+
+        jLabel1.setText("Register Page");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -88,21 +83,21 @@ public class RegisterPage extends javax.swing.JFrame {
                         .addComponent(txtConfirmpassword))
                     .addComponent(txtFirstname, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(41, 41, 41))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(156, 156, 156)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnRegister)
                 .addGap(60, 60, 60))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(172, 172, 172)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(29, 29, 29)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(27, 27, 27)
+                .addComponent(jLabel1)
+                .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblFirstname)
                     .addComponent(txtFirstname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -133,10 +128,6 @@ public class RegisterPage extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -175,7 +166,7 @@ public class RegisterPage extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnRegister;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lblConfirmPasword;
     private javax.swing.JLabel lblFirstname;
     private javax.swing.JLabel lblLastname;
